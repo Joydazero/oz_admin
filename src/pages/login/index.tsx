@@ -94,6 +94,7 @@ export default function Login() {
             placeholder="비밀번호 (6~15자의 영문 대소문자, 숫자, 특수문자 포함"
             className={INPUT_STYLE}
           />
+          <p className="text-sm text-stone-600">admin@example.com / admin</p>
           {error && (
             <p className="mb-3 text-sm text-red-500">
               {error.message && '아이디/비밀번호를 확인해주세요.'}
