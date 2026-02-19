@@ -9,16 +9,16 @@ export const SERVICE_URLS = {
     LOGIN: `/accounts/login`,
     REFRESH: '/accounts/token/refresh',
     ME: `/accounts/me`,
-    LIST: `${ADMIN_TEXT}/account`,
-    DETAIL: (accountId: number) => `${ADMIN_TEXT}/account/${accountId}`,
-    UPDATE: (accountId: number) => `${ADMIN_TEXT}/account/${accountId}`,
-    DELETE: (accountId: number) => `${ADMIN_TEXT}/account/${accountId}`,
+    LIST: `${ADMIN_TEXT}/accounts`,
+    DETAIL: (accountId: number) => `${ADMIN_TEXT}/accounts/${accountId}`,
+    UPDATE: (accountId: number) => `${ADMIN_TEXT}/accounts/${accountId}`,
+    DELETE: (accountId: number) => `${ADMIN_TEXT}/accounts/${accountId}`,
     CHANGE_ROLE: (accountId: number) =>
-      `${ADMIN_TEXT}/account/${accountId}/role`,
+      `${ADMIN_TEXT}/accounts/${accountId}/role`,
     ACTIVATE: (accountId: number) =>
-      `${ADMIN_TEXT}/account/${accountId}/activate`,
+      `${ADMIN_TEXT}/accounts/${accountId}/activate`,
     DEACTIVATE: (accountId: number) =>
-      `${ADMIN_TEXT}/account/${accountId}/deactivate`,
+      `${ADMIN_TEXT}/accounts/${accountId}/deactivate`,
     CHECK_NICKNAME: `/accounts/check-nickname`,
   },
 
